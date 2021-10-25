@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sports-exercise-booking"
+version = "0.0.1"
+description = ""
+authors = ["Apurv Mishra <me@apurvmsihra.xyz>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+playwright = "^1.16.0"
+DateTime = "^4.3"
+APScheduler = "^3.8.1"
+python-dotenv = "^0.19.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
