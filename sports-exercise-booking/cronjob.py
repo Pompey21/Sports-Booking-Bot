@@ -11,6 +11,6 @@ from bot import main
 
 # Create an instance of scheduler and add function.
 scheduler = BlockingScheduler()
-scheduler.add_job(main, "cron", id="job_1", hour=6, minute=31)
+scheduler.add_job(main, "cron", id="job_1", hour=8, minute=15)
 
 scheduler.start()
