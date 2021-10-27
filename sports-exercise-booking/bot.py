@@ -1,5 +1,4 @@
 import os
-import subprocess
 
 from datetime import datetime, timedelta
 from playwright.sync_api import Playwright, sync_playwright
@@ -68,7 +67,6 @@ def run(playwright: Playwright) -> None:
 
 def main():
     load_dotenv()
-    subprocess.run(["playwright", "install", "chromium"])
     with sync_playwright() as playwright:
         run(playwright)
 
